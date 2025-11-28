@@ -30,11 +30,11 @@ Program
 ```
 import numpy as np
 import matplotlib.pyplot as plt
-Am = 6.3
-fm = 504
-Ac = 12.6
-fc = 5040
-fs = 504000
+Am = 6.9
+fm = 584
+Ac = 13.8
+fc = 5840
+fs = 584000
 t = np.arange(0, 3/fm, 1/fs)
 m = Am * np.cos(2 * np.pi * fm * t)
 plt.subplot(3, 1, 1)
